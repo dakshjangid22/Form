@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="daksh"></div>
+    <!-- <div id="my"></div> -->
+    <script type="text/babel">
+       function Hello() {
+    return (
+        <div className="main">
+            <div className="div1"></div>
+            <div className="div2"></div>
+		<div class="div3"><h1><u>s</u>al<u>e</u><p><u> UP TO </u>40%<u> OFF</u></p></h1>
+            <div className="div5"><img src="dd.avif" /></div>
+            <div className="div6">
+                save extra <br />10%off<br />
+                <span style={{ fontSize: "15px" }}> limited time offer</span><br />
+                <input type="button" value="SHOP NOW" /><br />
+            </div>
+            <div className="div4"><b>Social</b> media <u>banner</u></div>
+        </div>
+        </div>
+    )
+}
+
+      
+        const a = document.getElementById("daksh");
+        const root = ReactDOM.createRoot(a);
+        root.render(<Hello/>);
+        
+        
+    </script>
+</body>
+</html>
